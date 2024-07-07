@@ -1,20 +1,21 @@
 # OUA-Unity66
 
-SPRINT 1 
-Takım elemanları
+## SPRINT 1
+
+### Takım elemanları
 •Buse Kanlı: Scrum Master
 •Ayşenur Madan: Developer 
 •Batuhan Akdemir: Developer
 •Barış Küçükkaya: Developer 
 •Büşra Acar: Developer 
 
-Ürün İsmi: Run 4 Core
+## Ürün İsmi: Run 4 Core
 
 -Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.
 
 - Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 30 olarak belirlenmiştir. İlk Sprint için bitirilmesi istenilen puan sayısı 5 olarak belirlenmiştir ve hedefe ulaşılmıştır.
 
-SPRINT REVİEW
+## SPRINT REVİEW
 -oyunun 2D olmasına karar verilmiştir.
 -Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.
 -Genel topantılar discord'tan yapılmıştır. Herkesin aktif olamadığı durumlarda Whatsapp üzerinden hızlı görüşmeler sağlanmıştır.
