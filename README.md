@@ -3,10 +3,15 @@
 ## SPRINT 1
 
 ### Takım elemanları
+
 •Buse Kanlı: Scrum Master
+
 •Ayşenur Madan: Developer 
+
 •Batuhan Akdemir: Developer
+
 •Barış Küçükkaya: Developer 
+
 •Büşra Acar: Developer 
 
 ## Ürün İsmi: Run 4 Core
