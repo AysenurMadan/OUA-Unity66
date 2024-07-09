@@ -53,6 +53,10 @@ Run 4 core, oyuncunun her seviyede toplaması gereken eşyaları bulup görevi t
 - Toplantıların 2 günde bir yapılmasına karar verilmiştir.
 ## ÜRÜN GÖRSELLERİ
 
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/eb3962ad-8b00-42e3-891f-094309dcac1a)
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/709c94fd-7d30-457a-99e5-e1a15b2d5eb2)
 ![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/ce20c9f0-dc91-47a8-a762-5c6841649c1f)
+
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/eb3962ad-8b00-42e3-891f-094309dcac1a)
+
+
 
