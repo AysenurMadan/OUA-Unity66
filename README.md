@@ -54,4 +54,5 @@ Run 4 core, oyuncunun her seviyede toplaması gereken eşyaları bulup görevi t
 ## ÜRÜN GÖRSELLERİ
 
 ![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/eb3962ad-8b00-42e3-891f-094309dcac1a)
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/ce20c9f0-dc91-47a8-a762-5c6841649c1f)
 
