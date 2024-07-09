@@ -39,6 +39,15 @@ Run 4 core, oyuncunun her seviyede toplaması gereken eşyaları bulup görevi t
 - ## Toplantı ve WhatsApp ScreenShotları
 - [WhatsApp & Discord](https://imgur.com/a/6D6gXiH)
 
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/b8a1459f-cce3-49c1-954d-aa06378520d9)
+
+## ÜRÜN GÖRSELLERİ
+
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/709c94fd-7d30-457a-99e5-e1a15b2d5eb2)
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/ce20c9f0-dc91-47a8-a762-5c6841649c1f)
+
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/eb3962ad-8b00-42e3-891f-094309dcac1a)
+
 ## SPRINT REVİEW
 -oyunun 2D olmasına karar verilmiştir.
 
@@ -51,12 +60,3 @@ Run 4 core, oyuncunun her seviyede toplaması gereken eşyaları bulup görevi t
 ## SPRINT RETROSPECTIVE 
 - Kişisel hayat yoğunluğu ve takım içi görev dağılımının adil olması için  Scrum Master'ın değişmesine karar verilmiştir.
 - Toplantıların 2 günde bir yapılmasına karar verilmiştir.
-## ÜRÜN GÖRSELLERİ
-
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/709c94fd-7d30-457a-99e5-e1a15b2d5eb2)
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/ce20c9f0-dc91-47a8-a762-5c6841649c1f)
-
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/eb3962ad-8b00-42e3-891f-094309dcac1a)
-
-
-
