@@ -1,9 +1,10 @@
-# Takım İsmi
-Unity 66
+# OUA-Unity66
 
-# Takım Üyeleri
+## SPRINT 1
 
-•Buse Kanlı: Developer
+### Takım elemanları
+
+•Buse Kanlı: Scrum Master
 
 •Ayşenur Madan: Developer 
 
@@ -11,52 +12,21 @@ Unity 66
 
 •Barış Küçükkaya: Developer 
 
-•Büşra Acar: Scrum Master
+•Büşra Acar: Developer 
 
-# Oyun İsmi
-Run 4 Core
+## Ürün İsmi: Run 4 Core
 
-# Product Backlog URL
-[Unity 66 Trello Backlog Board](https://trello.com/b/wgRwLdbQ/bootcamp-team-board)
+-Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.
 
-# Oyun Açıklaması
-Run 4 core, oyuncunun her seviyede toplaması gereken eşyaları bulup görevi tamamladığı bir 2d, level base platformer oyunudur.
-
-# Oyun Özellikleri
-•2d
-
-•Platform oyunlar
-
-# Hedef Kitle 
-• 7-15 yaş 
-
-• Platform oyun sevenler
-
-• PC oyuncuları
-# SPRINT 1
-- **Sprint içi ouan değerlendirmesi**: 5
-- **Puan tamamlama mantığı**: Proje boyunca tamamlanması gereken backlog puanı 30 olarak belirlenmiştir. İlk Sprint için bitirilmesi istenilen puan sayısı 5 olarak belirlenmiştir ve hedefe ulaşılmıştır.
-- ## Toplantı ve WhatsApp ScreenShotları
-- [WhatsApp & Discord](https://imgur.com/a/6D6gXiH)
-
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/b8a1459f-cce3-49c1-954d-aa06378520d9)
-
-## ÜRÜN GÖRSELLERİ
-
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/709c94fd-7d30-457a-99e5-e1a15b2d5eb2)
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/158531043/ce20c9f0-dc91-47a8-a762-5c6841649c1f)
-
-![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/eb3962ad-8b00-42e3-891f-094309dcac1a)
+- Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 30 olarak belirlenmiştir. İlk Sprint için bitirilmesi istenilen puan sayısı 5 olarak belirlenmiştir ve hedefe ulaşılmıştır.
 
 ## SPRINT REVİEW
 -oyunun 2D olmasına karar verilmiştir.
-
--Oyunun Platform oyunu olmasına karar veirlmiştir.
-
--Oyun içinde düşman karakterler olmamasına karar verilmiştir.
-
+-Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.
+-Genel topantılar discord'tan yapılmıştır. Herkesin aktif olamadığı durumlarda Whatsapp üzerinden hızlı görüşmeler sağlanmıştır.
 -sprint review katılımcıları: Buse Kanlı, Ayşenur Madan, Barış Küçükkaya, Batuhan Akdemir, Büşra Acar
 
-## SPRINT RETROSPECTIVE 
-- Kişisel hayat yoğunluğu ve takım içi görev dağılımının adil olması için  Scrum Master'ın değişmesine karar verilmiştir.
-- Toplantıların 2 günde bir yapılmasına karar verilmiştir.
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/eb3962ad-8b00-42e3-891f-094309dcac1a)
+
+![image](https://github.com/AysenurMadan/OUA-Unity66/assets/95538816/f4a6ea8f-eb61-4404-af23-487ea2a35457)
+
