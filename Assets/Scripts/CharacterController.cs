@@ -19,15 +19,13 @@ public class CharacterController : Singleton<CharacterController>
     public Transform groundCheck;
     public LayerMask groundLayer;
     private bool isGrounded;
-
+    private bool isJumping;
 
     // Start is called before the first frame update
     void Start()
     {
         r2d = GetComponent<Rigidbody2D>();
-
         _spriteRenderer = GetComponent<SpriteRenderer>(); //caching sprite renderer
-        r2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         //charpos = transform.position;
         sayi = 1;
@@ -41,27 +39,8 @@ public class CharacterController : Singleton<CharacterController>
         Jump();
         UpdateAnimation();
 
-        if (Input.GetAxis("Horizontal") == 0.0f)
-        {
-            _animator.SetFloat("speed", 0.0f);
-        }
-        else
-        {
-            _animator.SetFloat("speed", 1.0f);
-        }
-
-        if (Input.GetAxis("Horizontal") > 0.01f)
-        {
-            _spriteRenderer.flipX = false;
-
-        }
-        else if (Input.GetAxis("Horizontal") < -0.01f)
-
-        {
-            _spriteRenderer.flipX = true;
-        }
-
         sayi = 3;
+
     }
 
     private void LateUpdate()
@@ -76,6 +55,15 @@ public class CharacterController : Singleton<CharacterController>
     {
         float moveInput = Input.GetAxis("Horizontal");
         r2d.velocity = new Vector2(moveInput * moveSpeed, r2d.velocity.y);
+
+        if (moveInput > 0.01f)
+        {
+            _spriteRenderer.flipX = false;
+        }
+        else if (moveInput < -0.01f)
+        {
+            _spriteRenderer.flipX = true;
+        }
     }
 
     void Jump()
@@ -84,35 +72,52 @@ public class CharacterController : Singleton<CharacterController>
 
         if (isGrounded && Input.GetKey(KeyCode.Space))
         {
-            Debug.Log("mERHABA");
             r2d.velocity = new Vector2(r2d.velocity.x, jumpForce);
+            isJumping = true;
+        }
+        if (isGrounded && isJumping)
+        {
+            isJumping = false;
         }
     }
 
     void UpdateAnimation()
     {
         Animator animator = GetComponent<Animator>();
-        if (animator != null)
+        if (_animator != null)
         {
-            if (Input.GetAxis("Horizontal") == 0.0f)
+            float moveInput = Input.GetAxis("Horizontal");
+
+            if (isGrounded)
             {
-                animator.SetFloat("speed", 0.0f);
+                if (moveInput == 0.0f)
+                {
+                    _animator.SetBool("isIdle", true);
+                    _animator.SetBool("isWalking", false);
+                }
+                else
+                {
+                    _animator.SetBool("isIdle", false);
+                    _animator.SetBool("isWalking", true);
+                }
+
+                _animator.SetBool("isJumping", false);
+                _animator.SetBool("isFalling", false);
             }
             else
             {
-                animator.SetFloat("speed", 1.0f);
-            }
+                _animator.SetBool("isWalking", false);
+                _animator.SetBool("isIdle", false);
 
-            SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-            if (spriteRenderer != null)
-            {
-                if (Input.GetAxis("Horizontal") > 0.01f)
+                if (r2d.velocity.y > 0)
                 {
-                    spriteRenderer.flipX = false;
+                    _animator.SetBool("isJumping", true);
+                    _animator.SetBool("isFalling", false);
                 }
-                else if (Input.GetAxis("Horizontal") < -0.01f)
+                else
                 {
-                    spriteRenderer.flipX = true;
+                    _animator.SetBool("isJumping", false);
+                    _animator.SetBool("isFalling", true);
                 }
             }
         }
