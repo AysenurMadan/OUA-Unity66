@@ -8,7 +8,7 @@ public class CharacterController : MonoBehaviour
     public LayerMask groundLayer;
 
     private Rigidbody2D r2d;
-    private Animator animator;
+    public Animator animator;
     private bool isGrounded;
     private float horizontalInput;
     private bool isJumping;
@@ -17,7 +17,7 @@ public class CharacterController : MonoBehaviour
     void Start()
     {
         r2d = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+      //  animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -31,7 +31,8 @@ public class CharacterController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
-            animator.SetTrigger("jump");
+            animator.SetTrigger("Jump");
+            Debug.Log("merhaba");
         }
 
         FlipSprite();
@@ -44,7 +45,7 @@ public class CharacterController : MonoBehaviour
     void FixedUpdate()
     {
         // Yerde mi kontrolü
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.22f, groundLayer);
 
         // Karakter hareketi
         r2d.velocity = new Vector2(horizontalInput * moveSpeed, r2d.velocity.y);
