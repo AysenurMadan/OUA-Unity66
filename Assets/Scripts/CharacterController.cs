@@ -11,7 +11,7 @@ public class CharacterController : Singleton<CharacterController>
 
     private Rigidbody2D r2d;
     public Animator animator;
-    private bool isGrounded;
+    public bool isGrounded;
     private float horizontalInput;
     private bool isJumping;
     private bool jumpPressed;
@@ -35,9 +35,9 @@ public class CharacterController : Singleton<CharacterController>
         FlipSprite();
 
         // Kamera hareketi
-        Vector3 cameraPos = new Vector3(transform.position.x, transform.position.y, cameraObject.transform.position.z);
+       /* Vector3 cameraPos = new Vector3(transform.position.x, transform.position.y, cameraObject.transform.position.z);
         cameraObject.transform.position = Vector3.Lerp(cameraObject.transform.position, cameraPos, 0.1f);
-
+       */
         // Zýplama giriþini kontrol et
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -62,7 +62,7 @@ public class CharacterController : Singleton<CharacterController>
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+   /* private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
@@ -77,7 +77,7 @@ public class CharacterController : Singleton<CharacterController>
         {
             isGrounded = false;
         }
-    }
+    }*/
 
     void FlipSprite()
     {

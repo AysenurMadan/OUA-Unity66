@@ -11,6 +11,7 @@ public class DieTrap : MonoBehaviour
             CollectibleItemController.Instance.Coin = 0;
             CharacterController.Instance.Destination();
             CollectibleItemController.Instance.List();
+            MenuScript.Instance.CoinIndex();
         }
     }
 }

@@ -9,6 +9,6 @@ public class MenuScript : Singleton<MenuScript>
     // Start is called before the first frame update
     public void CoinIndex()
     {
-        CoinPoint.text = "Element:" + CollectibleItemController.Instance.Coin;
+        CoinPoint.text = "Element: " + CollectibleItemController.Instance.Coin;
     }
 }
