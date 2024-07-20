@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Bar\u0131\u015FScene.unity"
     guid: 248d64874bac4294e8c6494f7c0c7d92
+  - enabled: 1
+    path: Assets/Scenes/BatuhanScene.unity
+    guid: 1651274de447b154287760efba489e4d
   m_configObjects: {}

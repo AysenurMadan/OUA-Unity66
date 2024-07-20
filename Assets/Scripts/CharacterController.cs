@@ -14,6 +14,7 @@ public class CharacterController : Singleton<CharacterController>
     private bool isGrounded;
     private float horizontalInput;
     private bool isJumping;
+    private bool jumpPressed;
     [SerializeField] private GameObject cameraObject;
 
     void Start()
@@ -40,27 +41,9 @@ public class CharacterController : Singleton<CharacterController>
         // Zýplama giriþini kontrol et
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            isJumping = true;
+            jumpPressed = true;
         }
     }
-
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = false;
-        }
-    }
-
 
     void FixedUpdate()
     {
@@ -71,13 +54,30 @@ public class CharacterController : Singleton<CharacterController>
         r2d.velocity = new Vector2(horizontalInput * moveSpeed, r2d.velocity.y);
 
         // Zýplama
-        if (isJumping)
+        if (jumpPressed && isGrounded)
         {
+            isJumping = true;
             r2d.velocity = new Vector2(r2d.velocity.x, jumpForce);
-            isJumping = false;
+            jumpPressed = false;
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+            isJumping=false;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
+    }
 
     void FlipSprite()
     {
