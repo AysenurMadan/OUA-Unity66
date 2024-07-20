@@ -1,11 +1,13 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public class CharacterController : Singleton<CharacterController>
 {
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
     public LayerMask groundLayer;
+    public Vector3 start;
 
     private Rigidbody2D r2d;
     public Animator animator;
@@ -17,7 +19,8 @@ public class CharacterController : MonoBehaviour
     void Start()
     {
         r2d = GetComponent<Rigidbody2D>();
-      //  animator = GetComponent<Animator>();
+        //  animator = GetComponent<Animator>();
+        start = transform.position;
     }
 
     void Update()
@@ -28,19 +31,36 @@ public class CharacterController : MonoBehaviour
         animator.SetFloat("speed", Mathf.Abs(horizontalInput));
         animator.SetBool("isGrounded", isGrounded);
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            isJumping = true;
-            animator.SetTrigger("Jump");
-            Debug.Log("merhaba");
-        }
-
         FlipSprite();
 
         // Kamera hareketi
         Vector3 cameraPos = new Vector3(transform.position.x, transform.position.y, cameraObject.transform.position.z);
         cameraObject.transform.position = Vector3.Lerp(cameraObject.transform.position, cameraPos, 0.1f);
+
+        // Zýplama giriþini kontrol et
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            isJumping = true;
+        }
     }
+
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
+    }
+
 
     void FixedUpdate()
     {
@@ -58,6 +78,7 @@ public class CharacterController : MonoBehaviour
         }
     }
 
+
     void FlipSprite()
     {
         if (horizontalInput > 0.01f)
@@ -68,5 +89,10 @@ public class CharacterController : MonoBehaviour
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
+    }
+
+    public void Destination()
+    {
+        transform.position = start;
     }
 }
