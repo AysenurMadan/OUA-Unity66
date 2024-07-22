@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_tileset_129
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 311
+        width: 138
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffdb73ede7d3df4eb580e386c4d3970
+      internalID: 975231760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tileset_131
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 315
+        width: 138
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad67adbd54d66db469b3d297faf1c81f
+      internalID: 157977206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tileset_149
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 85
+        width: 50
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5812882, y: 0.49999946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f0b2b8379a54647a69a915f8137342
+      internalID: 914606275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tileset_150
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 87
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b314f992c4d8e84aafdfddd3ed23eee
+      internalID: -119556393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1367
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b18e8b012c3f8448aed1f17b18390c0
+      internalID: -1388881191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,160 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spritesheet_tileset_0: -1388881191
+      Spritesheet_tileset_1: 130543924
+      Spritesheet_tileset_10: -605207180
+      Spritesheet_tileset_100: -192377082
+      Spritesheet_tileset_101: 1377368799
+      Spritesheet_tileset_102: 249419825
+      Spritesheet_tileset_103: 1631293251
+      Spritesheet_tileset_104: -316669612
+      Spritesheet_tileset_105: -1360660449
+      Spritesheet_tileset_106: -1704781197
+      Spritesheet_tileset_107: -1587387664
+      Spritesheet_tileset_108: 1534297061
+      Spritesheet_tileset_109: 1823874968
+      Spritesheet_tileset_11: 1819435355
+      Spritesheet_tileset_110: -1395708664
+      Spritesheet_tileset_111: -1306800365
+      Spritesheet_tileset_112: 1385884232
+      Spritesheet_tileset_113: -953114632
+      Spritesheet_tileset_114: -1893293601
+      Spritesheet_tileset_115: -1083825353
+      Spritesheet_tileset_116: -1221375007
+      Spritesheet_tileset_117: -712274132
+      Spritesheet_tileset_118: 1300087946
+      Spritesheet_tileset_119: 89422640
+      Spritesheet_tileset_12: -612781808
+      Spritesheet_tileset_120: -1163269958
+      Spritesheet_tileset_121: 1559180670
+      Spritesheet_tileset_122: 362442379
+      Spritesheet_tileset_123: 1781143377
+      Spritesheet_tileset_124: -1879559192
+      Spritesheet_tileset_125: 1982641872
+      Spritesheet_tileset_126: 2139602314
+      Spritesheet_tileset_127: 1608688109
+      Spritesheet_tileset_128: -433073575
+      Spritesheet_tileset_129: 975231760
+      Spritesheet_tileset_13: 486612779
+      Spritesheet_tileset_130: 1460936849
+      Spritesheet_tileset_131: 157977206
+      Spritesheet_tileset_132: 1445782252
+      Spritesheet_tileset_133: 500024148
+      Spritesheet_tileset_134: -127254079
+      Spritesheet_tileset_135: 1950759232
+      Spritesheet_tileset_136: -1579869564
+      Spritesheet_tileset_137: -1905432519
+      Spritesheet_tileset_138: -2059208760
+      Spritesheet_tileset_139: 443855370
+      Spritesheet_tileset_14: 2122689176
+      Spritesheet_tileset_140: -346851428
+      Spritesheet_tileset_141: -844367921
+      Spritesheet_tileset_142: 1298491105
+      Spritesheet_tileset_143: 1719185064
+      Spritesheet_tileset_144: 266297983
+      Spritesheet_tileset_145: -1590250143
+      Spritesheet_tileset_146: 1123273785
+      Spritesheet_tileset_147: -607329127
+      Spritesheet_tileset_148: 2051837499
+      Spritesheet_tileset_149: 914606275
+      Spritesheet_tileset_15: -1307406687
+      Spritesheet_tileset_150: -119556393
+      Spritesheet_tileset_151: -1259505934
+      Spritesheet_tileset_152: -1543915704
+      Spritesheet_tileset_16: 412570756
+      Spritesheet_tileset_17: -463940655
+      Spritesheet_tileset_18: -241438578
+      Spritesheet_tileset_19: 904836048
+      Spritesheet_tileset_2: 1043507853
+      Spritesheet_tileset_20: -1962002575
+      Spritesheet_tileset_21: 1548968499
+      Spritesheet_tileset_22: -2050095244
+      Spritesheet_tileset_23: -1795311149
+      Spritesheet_tileset_24: 129200049
+      Spritesheet_tileset_25: -1782632987
+      Spritesheet_tileset_26: 2140911381
+      Spritesheet_tileset_27: 80683340
+      Spritesheet_tileset_28: -1574864021
+      Spritesheet_tileset_29: -397511636
+      Spritesheet_tileset_3: 662704375
+      Spritesheet_tileset_30: 140404692
+      Spritesheet_tileset_31: -408573537
+      Spritesheet_tileset_32: 1694400282
+      Spritesheet_tileset_33: -271430726
+      Spritesheet_tileset_34: -887455157
+      Spritesheet_tileset_35: -1423582205
+      Spritesheet_tileset_36: -554865
+      Spritesheet_tileset_37: -1999936055
+      Spritesheet_tileset_38: 576126175
+      Spritesheet_tileset_39: -1682269599
+      Spritesheet_tileset_4: 316004418
+      Spritesheet_tileset_40: 703596287
+      Spritesheet_tileset_41: -1009986101
+      Spritesheet_tileset_42: 1613925729
+      Spritesheet_tileset_43: -898458211
+      Spritesheet_tileset_44: 1490880858
+      Spritesheet_tileset_45: 753351884
+      Spritesheet_tileset_46: -2038898491
+      Spritesheet_tileset_47: -2080039042
+      Spritesheet_tileset_48: 154829969
+      Spritesheet_tileset_49: -957313806
+      Spritesheet_tileset_5: 461861295
+      Spritesheet_tileset_50: -1882673370
+      Spritesheet_tileset_51: -480432799
+      Spritesheet_tileset_52: -1726386447
+      Spritesheet_tileset_53: 172300841
+      Spritesheet_tileset_54: -300231945
+      Spritesheet_tileset_55: 1308575825
+      Spritesheet_tileset_56: -805539196
+      Spritesheet_tileset_57: -1224635445
+      Spritesheet_tileset_58: 1952624083
+      Spritesheet_tileset_59: -1269494082
+      Spritesheet_tileset_6: -1563623374
+      Spritesheet_tileset_60: 185122043
+      Spritesheet_tileset_61: -1128890243
+      Spritesheet_tileset_62: -2007746277
+      Spritesheet_tileset_63: -6655487
+      Spritesheet_tileset_64: -36039373
+      Spritesheet_tileset_65: 2054827493
+      Spritesheet_tileset_66: -759744217
+      Spritesheet_tileset_67: 450649532
+      Spritesheet_tileset_68: 210556686
+      Spritesheet_tileset_69: 500611793
+      Spritesheet_tileset_7: -895629972
+      Spritesheet_tileset_70: -504669592
+      Spritesheet_tileset_71: 1209623057
+      Spritesheet_tileset_72: -1024749932
+      Spritesheet_tileset_73: -1829311989
+      Spritesheet_tileset_74: 1804066211
+      Spritesheet_tileset_75: 614666193
+      Spritesheet_tileset_76: 1161034954
+      Spritesheet_tileset_77: 1710298752
+      Spritesheet_tileset_78: -353938773
+      Spritesheet_tileset_79: 827921737
+      Spritesheet_tileset_8: -1227170356
+      Spritesheet_tileset_80: -730186347
+      Spritesheet_tileset_81: 913975876
+      Spritesheet_tileset_82: -1021623056
+      Spritesheet_tileset_83: 1237379978
+      Spritesheet_tileset_84: -63626680
+      Spritesheet_tileset_85: 394794702
+      Spritesheet_tileset_86: -1562359381
+      Spritesheet_tileset_87: -1534634799
+      Spritesheet_tileset_88: -193003377
+      Spritesheet_tileset_89: -1476704747
+      Spritesheet_tileset_9: -284606304
+      Spritesheet_tileset_90: 558261359
+      Spritesheet_tileset_91: -623579253
+      Spritesheet_tileset_92: 820355192
+      Spritesheet_tileset_93: -104257802
+      Spritesheet_tileset_94: 612194405
+      Spritesheet_tileset_95: 150120765
+      Spritesheet_tileset_96: -1092140816
+      Spritesheet_tileset_97: -2011147893
+      Spritesheet_tileset_98: 1983423547
+      Spritesheet_tileset_99: 1690972794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
