@@ -43500,22 +43500,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3482774845057682734, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4928326980723796599, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4928326980723796599, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4928326980723796599, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4928326980723796599, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.642
@@ -43556,38 +43540,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4928326980723796599, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697644470009398533, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.306
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432370896731329659, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_Size.y
-      value: 0.075614095
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432370896731329659, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.013676345
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049853119261605671, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 8133407744629808879, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
       propertyPath: cameraObject
       value: 
       objectReference: {fileID: 1182035875}
-    - target: {fileID: 8600704434203470293, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8600704434203470293, guid: 27e9a0c6b6f8bb04aa91710a1eb62980, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
