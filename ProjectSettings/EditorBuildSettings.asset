@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuScene.unity
     guid: c2d79a887c988d34f90e0a504d0f0806
   - enabled: 1
-    path: "Assets/Scenes/Ay\u015FenurScene.unity"
-    guid: 3ce5ce677c99e8c4091e695c1446aa92
-  - enabled: 1
     path: "Assets/Scenes/Bar\u0131\u015FScene.unity"
     guid: 248d64874bac4294e8c6494f7c0c7d92
   - enabled: 1
     path: Assets/Scenes/BatuhanScene.unity
     guid: 1651274de447b154287760efba489e4d
+  - enabled: 1
+    path: Assets/Scenes/BuseScene.unity
+    guid: db04f905ff7d7f446a256384b7022cb1
+  - enabled: 1
+    path: "Assets/Scenes/B\xFC\u015FraScene.unity"
+    guid: f48a36d2540d58a4c9a033d5868ce721
   m_configObjects: {}
