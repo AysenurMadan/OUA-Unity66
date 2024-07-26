@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/B\xFC\u015FraScene.unity"
     guid: f48a36d2540d58a4c9a033d5868ce721
+  - enabled: 1
+    path: Assets/Scenes/EndGameScene.unity
+    guid: f74843ed65fac9c459b3872547df9889
   m_configObjects: {}
