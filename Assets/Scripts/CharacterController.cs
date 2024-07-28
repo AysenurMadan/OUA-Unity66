@@ -2,7 +2,11 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterController : Singleton<CharacterController>
+
 {
+    SoundManager soundManagerScript;
+    
+
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
@@ -22,13 +26,14 @@ public class CharacterController : Singleton<CharacterController>
         r2d = GetComponent<Rigidbody2D>();
         //  animator = GetComponent<Animator>();
         start = transform.position;
+        soundManagerScript = GameObject().Find("SoundManager").GetCompanent<SoundManager>();  
     }
 
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
-        // Animasyon parametrelerini güncelle
+        // Animasyon parametrelerini gï¿½ncelle
         animator.SetFloat("speed", Mathf.Abs(horizontalInput));
         animator.SetBool("isGrounded", isGrounded);
 
@@ -38,27 +43,29 @@ public class CharacterController : Singleton<CharacterController>
        /* Vector3 cameraPos = new Vector3(transform.position.x, transform.position.y, cameraObject.transform.position.z);
         cameraObject.transform.position = Vector3.Lerp(cameraObject.transform.position, cameraPos, 0.1f);
        */
-        // Zýplama giriþini kontrol et
+        // Zï¿½plama giriï¿½ini kontrol et
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             jumpPressed = true;
+            soundManagerScript.Jump();
         }
     }
 
     void FixedUpdate()
     {
-        // Yerde mi kontrolü
+        // Yerde mi kontrolï¿½
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.22f, groundLayer);
 
         // Karakter hareketi
         r2d.velocity = new Vector2(horizontalInput * moveSpeed, r2d.velocity.y);
 
-        // Zýplama
+        // Zï¿½plama
         if (jumpPressed && isGrounded)
         {
             isJumping = true;
             r2d.velocity = new Vector2(r2d.velocity.x, jumpForce);
             jumpPressed = false;
+            
         }
     }
 
