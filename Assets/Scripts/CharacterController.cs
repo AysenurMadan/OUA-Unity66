@@ -4,7 +4,6 @@ using UnityEngine;
 public class CharacterController : Singleton<CharacterController>
 
 {
-    SoundManager soundManagerScript;
     
 
     public float moveSpeed = 5f;
@@ -26,7 +25,6 @@ public class CharacterController : Singleton<CharacterController>
         r2d = GetComponent<Rigidbody2D>();
         //  animator = GetComponent<Animator>();
         start = transform.position;
-        soundManagerScript = GameObject().Find("SoundManager").GetCompanent<SoundManager>();  
     }
 
     void Update()
@@ -47,7 +45,6 @@ public class CharacterController : Singleton<CharacterController>
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             jumpPressed = true;
-            soundManagerScript.Jump();
         }
     }
 
