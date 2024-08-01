@@ -89,7 +89,7 @@ Daily Scrum: Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord �
 ![image](https://github.com/user-attachments/assets/6acd4ff0-a42d-405a-98f0-d0df1501f971)
 ![image](https://github.com/user-attachments/assets/4dff2797-89a9-4c12-844d-f6ce04cf2c26)
 
-Sprint Review:
+## Sprint Review:
 Takım üyeleri süreç boyunca birbirlerini destekledikleri için teşekkürler edildi. Süreç boyunca hazır ücretsiz karakter ve assestler kullanılmıştır. 4 adet map tasarımı, platform kodları, farklı mekanikler, karakter ve platform animasyonları, kamera entegrasyonu, ses müzik entegrasyonu yapılmıştır. Bu sprintte hedefler tamamlanmış ve tamamlanması gereken toplam 30 puanlık backlog puanı tamamlanmıştır.
 Sprint Review katılımcıları: Buse Kanlı, Ayşenur Madan, Barış Küçükkaya, Batuhan Akdemir, Büşra Acar
 
