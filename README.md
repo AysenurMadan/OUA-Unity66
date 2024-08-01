@@ -4,7 +4,7 @@
 
 ### Takım elemanları
 
-•Buse Kanlı: Scrum Master
+•Buse Kanlı: Developer
 
 •Ayşenur Madan: Developer 
 
@@ -12,13 +12,13 @@
 
 •Barış Küçükkaya: Developer 
 
-•Büşra Acar: Developer 
+•Büşra Acar: Scrum Master
 
 ## Ürün İsmi: Run 4 Core
 
 -Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.
 
-- Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 30 olarak belirlenmiştir. İlk Sprint için bitirilmesi istenilen puan sayısı 5 olarak belirlenmiştir ve hedefe ulaşılmıştır.
+- Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 30 olarak belirlenmiştir. İlk Sprint için bitirilmesi istenilen puan sayısı 10 olarak belirlenmiştir ve hedefe ulaşılmıştır.
 
 ## SPRINT REVİEW
 -oyunun 2D olmasına karar verilmiştir.
@@ -61,3 +61,31 @@ Sprint Review katılımcıları: Buse Kanlı, Ayşenur Madan, Barış Küçükka
 Sprint 2 için alınan puan 11'dir. Leval Design tamamlanmadığı için 1 puan kırılmıştır. 
 Yeni görevler daığıtılmıştır. Karakterin animasyonları ve mekanikleri entegre edilmiştir.
 Design için kalan görevler ve ses, müzik eklentileri not edilmiştir.
+
+# Sprint 3
+Sprint içinde tamamlanması tahmin edilen puan: İkinci sprintte leval design tamamlanmadığından dolayı bir puan kırılmıştır. Bu sebeple üçüncü sprint puanı 9 olarak belirlenmiştir.
+
+Daily Scrum: Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da toplantılar 2 günde 1'e çıkarılmıştır. Gün içinde de watsapp görüşmeleri devam etmiştir.
+## Toplantı ve Whatsapp ScreenShotları:
+![image](https://github.com/user-attachments/assets/43581cd1-705b-4aed-8c46-85a41a190357)
+![image](https://github.com/user-attachments/assets/31c88d3b-588d-4939-b7c6-d62b55679fb9)
+![image](https://github.com/user-attachments/assets/fef955da-eae0-43c5-9e90-4b22e8cae6cb)
+![image](https://github.com/user-attachments/assets/460254e2-0be8-4a7c-ab72-c3056f4cf82c)
+![image](https://github.com/user-attachments/assets/f8262eb1-65bb-40c2-9ada-0c90c7e21387)
+![image](https://github.com/user-attachments/assets/088b24c0-2fce-48d0-9fde-7e443cc4a61f)
+
+
+![image](https://github.com/user-attachments/assets/1dc7d238-99a0-4631-ada2-db7b0504cf48)
+
+[[Youtube Video](https://youtu.be/Fj0U8kfrcVE)] 
+
+## Sprint 2 board update: Sprint 2 Board Screenshot:
+
+
+## Ürün Durumu: Ekran Görüntüleri:
+
+
+Sprint Review:
+Takım üyeleri süreç boyunca birbirlerini destekledikleri için teşekkürler edildi. Süreç boyunca hazır ücretsiz karakter ve assestler kullanılmıştır. 4 adet map tasarımı, platform kodları, farklı mekanikler, karakter ve platform animasyonları, kamera entegrasyonu, ses müzik entegrasyonu yapılmıştır. Bu sprintte hedefler tamamlanmış ve tamamlanması gereken toplam 30 puanlık backlog puanı tamamlanmıştır.
+Sprint Review katılımcıları: Buse Kanlı, Ayşenur Madan, Barış Küçükkaya, Batuhan Akdemir, Büşra Acar
+
