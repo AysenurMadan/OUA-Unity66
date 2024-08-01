@@ -57,13 +57,14 @@
 Sprint 2'nin sonunda tekrar bir araya gelinmiş ve Sprint gözden geçirilmiştir.
 Leval Design tamamlanması dışında hedeflere ulaşılmıştır. 
 Sprint Review katılımcıları: Buse Kanlı, Ayşenur Madan, Barış Küçükkaya, Batuhan Akdemir, Büşra Acar
+
 ## Sprint Retrospective: 
 Sprint 2 için alınan puan 11'dir. Leval Design tamamlanmadığı için 1 puan kırılmıştır. 
 Yeni görevler daığıtılmıştır. Karakterin animasyonları ve mekanikleri entegre edilmiştir.
 Design için kalan görevler ve ses, müzik eklentileri not edilmiştir.
 
 # Sprint 3
-Sprint içinde tamamlanması tahmin edilen puan: İkinci sprintte leval design tamamlanmadığından dolayı bir puan kırılmıştır. Bu sebeple üçüncü sprint puanı 9 olarak belirlenmiştir.
+Sprint içinde tamamlanması tahmin edilen puan: İkinci sprintte leval design tamamlanmadığından dolayı bir puan kırılmıştır. Bu sebeple üçüncü sprint puanı 11 olarak belirlenmiştir.
 
 Daily Scrum: Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da toplantılar 2 günde 1'e çıkarılmıştır. Gün içinde de watsapp görüşmeleri devam etmiştir.
 ## Toplantı ve Whatsapp ScreenShotları:
@@ -73,17 +74,20 @@ Daily Scrum: Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord �
 ![image](https://github.com/user-attachments/assets/460254e2-0be8-4a7c-ab72-c3056f4cf82c)
 ![image](https://github.com/user-attachments/assets/f8262eb1-65bb-40c2-9ada-0c90c7e21387)
 ![image](https://github.com/user-attachments/assets/088b24c0-2fce-48d0-9fde-7e443cc4a61f)
-
-
 ![image](https://github.com/user-attachments/assets/1dc7d238-99a0-4631-ada2-db7b0504cf48)
 
 [[Youtube Video](https://youtu.be/Fj0U8kfrcVE)] 
 
-## Sprint 2 board update: Sprint 2 Board Screenshot:
-
+## Sprint 3 board update: Sprint 3 Board Screenshot:
+![image](https://github.com/user-attachments/assets/99dc0c7f-4edc-4f3b-bf40-0556bb6a7dc5)
 
 ## Ürün Durumu: Ekran Görüntüleri:
-
+![image](https://github.com/user-attachments/assets/ae670409-52d1-45aa-a24f-3656e3ad7110)
+![image](https://github.com/user-attachments/assets/53730324-3582-4b32-a4c7-a436230592a0)
+![image](https://github.com/user-attachments/assets/8ee7ed98-211e-4b93-9609-8d083a52866e)
+![image](https://github.com/user-attachments/assets/156ccdb9-3b28-49f0-a9b6-88d75cb78784)
+![image](https://github.com/user-attachments/assets/6acd4ff0-a42d-405a-98f0-d0df1501f971)
+![image](https://github.com/user-attachments/assets/4dff2797-89a9-4c12-844d-f6ce04cf2c26)
 
 Sprint Review:
 Takım üyeleri süreç boyunca birbirlerini destekledikleri için teşekkürler edildi. Süreç boyunca hazır ücretsiz karakter ve assestler kullanılmıştır. 4 adet map tasarımı, platform kodları, farklı mekanikler, karakter ve platform animasyonları, kamera entegrasyonu, ses müzik entegrasyonu yapılmıştır. Bu sprintte hedefler tamamlanmış ve tamamlanması gereken toplam 30 puanlık backlog puanı tamamlanmıştır.
